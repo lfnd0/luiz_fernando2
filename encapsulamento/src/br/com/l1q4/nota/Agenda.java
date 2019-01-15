@@ -1,4 +1,4 @@
-package br.com.l1q4.encapsulamento;
+package br.com.l1q4.nota;
 
 public class Agenda extends Nota {
 	

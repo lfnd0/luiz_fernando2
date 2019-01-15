@@ -1,4 +1,4 @@
-package br.com.l1q5.encapsulamento;
+package br.com.l1q5.base;
 
 public class Base {
 	

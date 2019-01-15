@@ -1,4 +1,4 @@
-package br.com.l1q1.encapsulamento;
+package br.com.l1q1.pessoa;
 
 public class Pessoa {
 	private String nome;

@@ -1,4 +1,4 @@
-package br.com.l1q3.encapsulamento;
+package br.com.l1q3.conta;
 
 public class Conta {
 
@@ -17,21 +17,38 @@ public class Conta {
 		return saldo;
 	}
 
-	public void depositar(int validarConta, float valor) {
-		if (validarConta == this.numeroConta) {
+	public void depositar(int numeroConta, float valor) {
+		if (validarConta(numeroConta)) {
 			this.saldo += valor;
 			System.out.printf("Deposito de: %.2f R$ na conta: %s, realizado com sucesso.%n", valor, numeroConta);
 		} else {
-			System.out.printf("Deposito invalido! Conta: %s, valor: %.2f R$.%n", validarConta, valor);
+			System.out.printf("Deposito invalido!%n");
 		}
 	}
 
-	public void sacar(int validarConta, float valor) {
-		if (validarConta == this.numeroConta && valor <= this.saldo) {
+	public void sacar(int numeroConta, float valor) {
+		if (validarSaque(valor)) {
 			this.saldo -= valor;
 			System.out.printf("Saque de: %.2f R$ na conta: %s, realizado com sucesso.%n", valor, numeroConta);
 		} else {
-			System.out.printf("Saque invalido! Conta: %s, valor: %.2f R$.%n", validarConta, valor);
+			System.out.printf("Saque invalido!");
+		}
+	}
+	
+	public boolean validarSaque(float valor) {
+		if(this.saldo >= valor) {
+			return true;
+		}else {
+			return false;
+		}
+		
+	}
+	
+	public boolean validarConta(int numeroConta) {
+		if(this.numeroConta == numeroConta) {
+			return true;
+		}else {
+			return false;
 		}
 	}
 }

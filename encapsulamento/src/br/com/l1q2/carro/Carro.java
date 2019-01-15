@@ -1,4 +1,4 @@
-package br.com.l1q2.encapsulamento;
+package br.com.l1q2.carro;
 
 public class Carro {
 	private String marca;
