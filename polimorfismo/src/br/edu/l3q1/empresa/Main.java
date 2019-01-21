@@ -1,4 +1,4 @@
-package br.com.l3q1.empresa;
+package br.edu.l3q1.empresa;
 
 public class Main {
 

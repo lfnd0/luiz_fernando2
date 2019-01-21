@@ -1,4 +1,4 @@
-package br.com.l3q4.reinoanimal;
+package br.edu.l3q4.reinoanimal;
 
 public class Aguia extends Ave {
 	
