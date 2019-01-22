@@ -86,8 +86,8 @@ public class RadioRelogio implements Radio, Relogio {
 	}
 
 	public String toString() {
-		return "Horario: " + horario + "| Deseja despertar? " + despertar + "| Hora do alarme: " + getHorarioAlarme()
-				+ "| Ligar na emissora: " + emissora + "| Sintonia: " + getTipoEmissora() + "| Volume do radio: "
+		return "Horario: " + horario + " | Deseja despertar? " + despertar + " | Hora do alarme: " + getHorarioAlarme()
+				+ " | Ligar na emissora: " + emissora + " | Sintonia: " + getTipoEmissora() + " | Volume do radio: "
 				+ volumeRadio + " e do relógio: " + volumeRelogio;
 	}
 }
