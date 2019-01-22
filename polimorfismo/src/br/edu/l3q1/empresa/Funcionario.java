@@ -3,13 +3,22 @@ package br.edu.l3q1.empresa;
 public class Funcionario {
 
 	private String nome;
+
 	/*
-	 * private String cpf; private String dataNascimento;
+	 * private String cpf; private String dataNascimento; private String funcao;
 	 */
-	private String funcao;
 	private String senha;
 	private String email;
 	private int registroUnico;
+
+	public Funcionario() {
+	}
+
+	public Funcionario(String email, String senha, int registro) {
+		this.email = email;
+		this.senha = senha;
+		this.registroUnico = registro;
+	}
 
 	public String getNome() {
 		return nome;
@@ -17,14 +26,6 @@ public class Funcionario {
 
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
-
-	public String getFuncao() {
-		return funcao;
-	}
-
-	public void setFuncao(String funcao) {
-		this.funcao = funcao;
 	}
 
 	public String getEmail() {
@@ -52,14 +53,14 @@ public class Funcionario {
 	}
 
 	public String fazerLogin(String email, String senha) {
-		if (this.email == email && this.senha == senha) {
-			return "Acesso permitido! " + getNome() + " e " + getFuncao() + "!";
+		if (email.equals(this.email) && (senha.equals(this.senha))) {
+			return "Acesso permitido!";
 		} else {
 			return "Acesso negado!";
 		}
 	}
 
 	public boolean fazerLogin(int registroUnico, String senha) {
-		return this.registroUnico == registroUnico && this.senha == senha;
+		return this.registroUnico == registroUnico && senha.equals(this.senha);
 	}
 }
