@@ -27,11 +27,11 @@ public class Conta {
 	}
 
 	public void sacar(int numeroConta, float valor) {
-		if (validarSaque(valor)) {
+		if (validarSaque(valor) && validarConta(numeroConta)) {
 			this.saldo -= valor;
 			System.out.printf("Saque de: %.2f R$ na conta: %s, realizado com sucesso.%n", valor, numeroConta);
 		} else {
-			System.out.printf("Saque invalido!");
+			System.out.printf("Saque invalido!%n");
 		}
 	}
 	
