@@ -34,5 +34,4 @@ public class Nota {
 	public void setEstado(boolean estado) {
 		this.estado = estado;
 	}
-	
 }
