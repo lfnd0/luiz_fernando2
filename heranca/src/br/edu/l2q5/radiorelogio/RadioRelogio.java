@@ -12,9 +12,8 @@ public class RadioRelogio implements Radio, Relogio {
 
 	public RadioRelogio(String horario, boolean despertar, String emissora, int volumeRadio,
 			int volumeRelogio) {
-		super();
 		this.horario = horario;
-		this.despertar = despertar;
+		this.setDespertar(despertar);
 		this.emissora = emissora;
 		this.volumeRadio = volumeRadio;
 		this.volumeRelogio = volumeRelogio;
@@ -85,9 +84,11 @@ public class RadioRelogio implements Radio, Relogio {
 		return volumeRelogio;
 	}
 
-	public String toString() {
-		return "Horario: " + horario + " | Deseja despertar? " + despertar + " | Hora do alarme: " + getHorarioAlarme()
-				+ " | Ligar na emissora: " + emissora + " | Sintonia: " + getTipoEmissora() + " | Volume do radio: "
-				+ volumeRadio + " e do relógio: " + volumeRelogio;
+	public boolean isDespertar() {
+		return despertar;
+	}
+
+	public void setDespertar(boolean despertar) {
+		this.despertar = despertar;
 	}
 }
