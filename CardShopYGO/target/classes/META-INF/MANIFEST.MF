@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Luiz Fernando
+Build-Jdk: 11.0.1
+Implementation-Title: CardShopYGO
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: edu.ygo
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/CardShopYGO
+Created-By: Maven Integration for Eclipse
+

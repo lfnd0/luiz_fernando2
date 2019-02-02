@@ -39,7 +39,7 @@ public class SynchroMonsterResource {
 		}
 	}
 	
-	@PostMapping("card/monsters/synchros")
+	@PostMapping("cards/monsters/synchros")
 	public ResponseEntity<?> saveSynchroMonster(@RequestBody SynchroMonster synchroMonster) {
 		SynchroMonster savedSynchroMonster = synchroMonsterRepository.save(synchroMonster);
 		
