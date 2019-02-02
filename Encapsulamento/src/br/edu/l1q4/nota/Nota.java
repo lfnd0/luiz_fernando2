@@ -4,17 +4,17 @@ public class Nota {
 	private String dono;
 	private String texto;
 	private boolean estado;
-	
+
 	public Nota(String dono, String texto) {
 		this.dono = dono;
 		this.texto = texto;
 		this.estado = true;
 	}
-	
+
 	public String getDono() {
 		return dono;
 	}
-	
+
 	public void setDono(String dono) {
 		this.dono = dono;
 	}
