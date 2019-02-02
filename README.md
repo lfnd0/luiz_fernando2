@@ -4,3 +4,7 @@
 > Aluno: Luiz Fernando
 
 > Professor: Thiago Sales
+
+> Linguagem: Java
+
+> Framework: Spring Boot
