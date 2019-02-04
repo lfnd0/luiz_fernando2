@@ -19,7 +19,6 @@
 [Only synchro monsters](http://localhost:8080/cards/monsters/synchros)
 
 >Link Monsters:
-
 [Only link monsters](http://localhost:8080/cards/monsters/links)
 
 ### Spells:
