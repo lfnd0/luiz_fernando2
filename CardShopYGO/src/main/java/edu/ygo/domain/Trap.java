@@ -39,10 +39,6 @@ public class Trap {
 		return card;
 	}
 
-	public void setCard(Card card) {
-		this.card = card;
-	}
-
 	public String getEffect() {
 		return effect;
 	}

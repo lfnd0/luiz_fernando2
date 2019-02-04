@@ -42,10 +42,6 @@ public class LinkMonster {
 		return monster;
 	}
 
-	public void setMonster(Monster monster) {
-		this.monster = monster;
-	}
-
 	public int getLinkRank() {
 		return linkRank;
 	}

@@ -45,10 +45,6 @@ public class EffectMonster {
 		return monster;
 	}
 
-	public void setMonster(Monster monster) {
-		this.monster = monster;
-	}
-
 	public int getLevel() {
 		return level;
 	}

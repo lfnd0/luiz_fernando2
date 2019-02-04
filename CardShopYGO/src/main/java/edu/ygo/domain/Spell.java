@@ -34,6 +34,10 @@ public class Spell {
 	public void setId(Integer id) {
 		this.id = id;
 	}
+	
+	public Card getCard() {
+		return card;
+	}
 
 	public String getEffect() {
 		return effect;

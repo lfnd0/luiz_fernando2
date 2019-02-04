@@ -44,10 +44,6 @@ public class SynchroMonster {
 	public Monster getMonster() {
 		return monster;
 	}
-
-	public void setMonster(Monster monster) {
-		this.monster = monster;
-	}
 	
 	public int getLevel() {
 		return level;
