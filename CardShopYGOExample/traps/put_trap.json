@@ -1,0 +1,9 @@
+{
+    "card": {
+        "id": 4,
+        "name": "Magic Cylinder ",
+        "type": "Trap Normal"
+    },
+    "id": 1,
+    "effect": "Target the attacking monster negate the attack"
+}

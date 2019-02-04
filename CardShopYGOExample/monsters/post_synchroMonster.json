@@ -1,0 +1,13 @@
+{
+    "monster": {
+        "card": {
+            "name": "Cyberse Quantum Dragon",
+            "type": "Monster Dragon Synchro"
+        },
+        "attribute": "DARK",
+        "attack": 2500
+    },
+    "level": 7,
+    "defense": 2000,
+    "summonedSynchro": "1 Tuner + 1 or more non-Tuner monsters"
+}

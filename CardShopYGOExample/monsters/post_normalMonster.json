@@ -1,0 +1,12 @@
+{
+    "monster": {
+        "card": {
+            "name": "Blue-Eyes White Dragon",
+            "type": "Mosnter Dragon Normal"
+        },
+        "attribute": "LIGHT",
+        "attack": 3000
+    },
+    "level": 8,
+    "defense": 2500
+}

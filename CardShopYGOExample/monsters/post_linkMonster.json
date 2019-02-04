@@ -1,0 +1,12 @@
+{
+    "monster": {
+        "card": {
+            "name": "Decode Talker",
+            "type": "Monster Cyberse Link"
+        },
+        "attribute": "DARK",
+        "attack": 2300
+    },
+    "linkRank": 3,
+    "summonedLink": "2+ effect monsters"
+}

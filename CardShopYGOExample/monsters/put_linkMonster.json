@@ -1,0 +1,15 @@
+{
+    "id": 2,
+    "monster": {
+        "id": 6,
+        "card": {
+            "id": 6,
+            "name": "Topologic Bomber Dragon",
+            "type": "Monster Cyberse Link"
+        },
+        "attribute": "DARK",
+        "attack": 3000
+    },
+    "linkRank": 4,
+    "summonedLink": "2+ effect monsters"
+}

@@ -1,0 +1,15 @@
+{
+    "id": 2,
+    "monster": {
+        "id": 2,
+        "card": {
+            "id": 2,
+            "name": "Red-Eyes Black Dragon",
+            "type": "Monster Dragon Normal"
+        },
+        "attribute": "DARK",
+        "attack": 2400
+    },
+    "level": 7,
+    "defense": 2000
+}

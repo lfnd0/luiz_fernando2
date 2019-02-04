@@ -1,0 +1,7 @@
+{
+    "card": {
+        "name": "Monster Reborn",
+        "type": "Spell Normal"
+    },
+    "effect": "Target 1 monster in either players GY special summon it"
+}

@@ -1,0 +1,16 @@
+{
+    "id": 1,
+    "monster": {
+        "id": 2,
+        "card": {
+            "id": 2,
+            "name": "Exodia The Forbidden One",
+            "type": "Monster Spellcaster Effect"
+        },
+        "attribute": "DARK",
+        "attack": 1000
+    },
+    "level": 3,
+    "defense": 1000,
+    "effect": "You win the duel"
+}

@@ -1,0 +1,13 @@
+{
+    "monster": {
+        "card": {
+            "name": "Obelisk The Tormentor",
+            "type": "Monster Divine-Beast Effect"
+        },
+        "attribute": "DIVINE",
+        "attack": 4000
+    },
+    "level": 10,
+    "defense": 4000,
+    "effect": "You can Tribute 2 monsters destroy all monsters your opponent controls"
+}

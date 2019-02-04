@@ -1,0 +1,7 @@
+{
+    "card": {
+        "name": "Trap Hole",
+        "type": "Trap Normal"
+    },
+    "effect": "When your opponent normal or flip summons 1 monster with 1000 or more ATK target that monster destroy that target"
+}

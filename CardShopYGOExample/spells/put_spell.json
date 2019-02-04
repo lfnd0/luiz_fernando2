@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "card": {
+        "id": 5,
+        "name": "Raigeki",
+        "type": "Spell Normal"
+    },
+    "effect": "Destroy all monsters your opponent controls"
+}

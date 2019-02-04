@@ -1,0 +1,16 @@
+{
+    "id": 2,
+    "monster": {
+        "id": 2,
+        "card": {
+            "id": 2,
+            "name": "Odin Father of The Aesir",
+            "type": "Monster Fairy Synchro"
+        },
+        "attribute": "DARK",
+        "attack": 4000
+    },
+    "level": 10,
+    "defense": 3500,
+    "summonedSynchro": "1 nordic ascendant Tuner + 2+ non-Tuner monsters"
+}
