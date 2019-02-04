@@ -4,7 +4,7 @@
 [Link](http://localhost:8080//h2-console/login.jsp)
 
 ### Cards:
-[All cards:](http://localhost:8080/cards)
+[All cards](http://localhost:8080/cards)
 
 #### Monsters:
 [All monsters](http://localhost:8080/cards/monsters)
